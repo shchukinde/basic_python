@@ -6,4 +6,4 @@ hour = time // 3600
 minute = (time % 3600) // 60
 second = ((time % 3600) % 60) % 60
 
-print(f'Время: {hour} час(а\ов) {minute} минут(ы\а) {second} секунд(а)')
+print(f'Время: {hour:02}:{minute:02}:{second:02} ')
